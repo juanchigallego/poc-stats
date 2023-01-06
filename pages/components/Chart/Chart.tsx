@@ -2,8 +2,11 @@ import React from "react";
 
 import tokens from "@nimbus-ds/tokens/dist/js/tokens";
 
-import { ChartProps } from "./chart.types";
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+interface ChartProps {
+  data: any[];
+}
 
 const Chart: React.FC<ChartProps> = ({
   data
