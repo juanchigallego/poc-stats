@@ -40,4 +40,4 @@ const Chart: React.FC<ChartProps> = ({
   )
 }
 
-export { Chart };
+export default Chart;
